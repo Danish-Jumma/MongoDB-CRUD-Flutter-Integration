@@ -4,7 +4,7 @@ import 'package:mongodb_app/models/user.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = "http://192.168.100.32:5000/users";
+  static const String baseUrl = "http://API_Address:5000/users";
 
   // Fetch Users
   Future<List<User>> fetchUsers() async {
